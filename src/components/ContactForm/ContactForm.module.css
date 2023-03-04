@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 20px;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 30px;
+}
+
+.form__label:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.form__input {
+  width: 300px;
+
+  font-size: 20px;
+}
+
+.form__button {
+  height: 20px;
+  width: 120px;
+  padding: 1px 10px;
+
+  outline: none;
+  border: 1px solid rgb(22, 22, 22);
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fff8f8;
+}

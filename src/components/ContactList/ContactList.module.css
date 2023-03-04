@@ -1,0 +1,36 @@
+.list {
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  width: 460px;
+}
+
+.list__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.list__name {
+  margin-right: 15px;
+
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.list__number {
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.list__button {
+  height: 20px;
+  padding: 1px 10px;
+  margin-left: auto;
+
+  outline: none;
+  border: 1px solid rgb(22, 22, 22);
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fff8f8;
+}
